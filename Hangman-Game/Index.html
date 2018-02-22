@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <!-- All content -->
+    <div class="container" style: "background-color: black;">
+
+        <div class="Jumbotron vertical-center">
+            <h1>
+                <strong>Hangman Game</strong>
+            </h1>
+        </div>
+        <div class="row">
+            <!-- Left side -->
+            <div class="col-md-6">
+                <div id="left">
+                    <div id="imageContainer">
+                        <!-- <img id="winImage" src="assets/images/Trashed planet.jpg" alt="Trashed planet"> -->
+                    </div>
+                </div>
+
+            </div>
+            <!-- Right side -->
+            <div class="col-md-6">
+                <div id="right">
+        
+                    <br>
+                    <h3>you have
+                        <span id="lives">9</span> lives left
+                        <!-- Number of guesses remaining -->
+                    </h3>
+                    <br>
+                    <div id="remainingChances"></div>
+                    <br>
+                    <h3>
+                        <!-- make your guess here -->
+                        <strong>TAKE A CHANCE, GUESS THE WORD</strong>
+                    </h3>
+                    <div id="guessWord"></div>
+                    <br>
+                    <!-- Letters that have been guessed -->
+                    <div id="guessedLetters"></div>
+                    <!-- Reset Button -->
+                    <button type="button" class="btn btn-danger">PLAY AGAIN</button>
+                </div>
+            </div>
+            <h1 id "chosenWord">------</h1>
+            <div id="letters">
+                <a id="a">A</a>
+                <a id="b">B</a>
+                <a id="c">C</a>
+                <a id="d">D</a>
+                <a id="e">E</a>
+                <a id="f">F</a>
+                <a id="g">G</a>
+                <a id="h">H</a>
+                <a id="i">I</a>
+                <a id="j">J</a>
+                <a id="k">K</a>
+                <a id="l">L</a>
+                <a id="m">M</a>
+                <a id="n">N</a>
+                <a id="o">O</a>
+                <a id="p">P</a>
+                <a id="q">Q</a>
+                <a id="r">R</a>
+                <a id="s">S</a>
+                <a id="t">T</a>
+                <a id="u">U</a>
+                <a id="v">V</a>
+                <a id="w">W</a>
+                <a id="x">X</a>
+                <a id="y">Y</a>
+                <a id="z">Z</a>
+            </div>
+        </div>
+</body>
+
+</html>
